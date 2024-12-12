@@ -1,0 +1,81 @@
+.welcome {
+
+    color: red;
+    background-color: aqua;
+    font-family: monospace;
+    font-style: italic;
+
+
+}
+
+.css {
+    text-align: center;
+    color: blue;
+    font-size: large;
+    font-family: cursive;
+    padding-top: 70px;
+    background-color: blanchedalmond;
+
+}
+
+.container {
+
+    display: flex;
+    align-items: center;
+
+}
+
+
+.images {
+
+    animation: myanimation 6s linear 3;
+
+}
+
+@keyframes myanimation {
+    0% {
+        opacity: 0;
+    }
+
+    0.01%,
+    33.33% {
+        opacity: 1;
+    }
+
+    33.33% {
+        opacity: 0;
+
+    }
+
+
+}
+
+.image1 {
+
+    animation: myanimation 3s linear 3;
+    position: absolute;
+
+}
+
+.image2 {
+    animation: myanimation 6s linear 3;
+
+    position: absolute;
+}
+
+.box1 {
+    flex: 1;
+    color: violet;
+    background-color: black;
+
+
+}
+
+.box2 {
+
+    flex: 1;
+    color: whitesmoke;
+    background-color: brown;
+
+
+}
